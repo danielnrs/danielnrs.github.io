@@ -1,0 +1,42 @@
+{
+  "name": "Masakan BuDhe",
+  "short_name": "MasakanBuDhe",
+  "description": "Aplikasi daftar restoran Masakan BuDhe.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4caf50",
+  "icons": [
+    {
+      "src": "/images/icons/BuDhe.png",
+      "sizes": "749x568",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icons/BuDhe-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icons/BuDhe-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/icons/screenshot1.png",
+      "sizes": "1918x927",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/icons/screenshot2.png",
+      "sizes": "378x822",
+      "type": "image/png"
+    }
+  ]
+}

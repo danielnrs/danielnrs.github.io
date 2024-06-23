@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masakan BuDhe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="manifest" href="./app.webmanifest" />
+    <link
+      rel="icon"
+      href="../public/images/icons/BuDhe-144x144.png"
+      type="image/png" />
+  </head>
+  <body>
+    <a href="#mainContent" class="skip-to-content">Lewati ke konten utama</a>
+    <header>
+      <nav class="app-bar">
+        <div class="app-bar__brand">
+          <h1>Masakan BuDhe</h1>
+        </div>
+        <button id="hamburgerButton" class="app-bar__menu">☰</button>
+        <ul class="app-bar__nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/daniel-nur-sandy-bayu-nata-24636030b/"
+              target="_blank"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside id="sidebar" class="sidebar">
+      <button id="closeSidebarButton" class="close-sidebar">&times;</button>
+      <div class="sidebar-menu">
+        <a href="/">Home</a>
+        <a href="#/favorite">Favorite</a>
+        <a
+          href="https://www.linkedin.com/in/daniel-nur-sandy-bayu-nata-24636030b/"
+          target="_blank"
+          >About Us</a
+        >
+      </div>
+    </aside>
+    <main id="mainContent" tabindex="0">
+      <section class="hero">
+        <div class="hero-text">
+          <h2>Welcome</h2>
+        </div>
+      </section>
+      <section class="restaurants">
+        <h2>Masakan BuDhe</h2>
+        <div class="restaurant-list" id="restaurantList"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2020 - Masakan BuDhe</p>
+    </footer>
+  </body>
+</html>
